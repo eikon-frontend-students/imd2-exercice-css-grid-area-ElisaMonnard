@@ -198,10 +198,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .header {
-    background-color: red;
-  }
-
   .container {
     display: grid;
     grid-template-areas:
@@ -210,5 +206,9 @@ video {
       "nav    main    main"
       "footer footer  footer";
     grid-template-columns: repeat(3, 1fr);
+  }
+  .nav ul {
+    display: flex;
+    flex-direction: column;
   }
 }
