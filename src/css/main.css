@@ -217,3 +217,14 @@ video {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media (min-width: 1200px) {
+  .container {
+    display: grid;
+    grid-template-areas:
+      ".      .      header  header"
+      ".      nav    main    main"
+      ".      nav    main    main"
+      "footer footer footer  footer";
+    grid-template-columns: 0.5fr 1fr 2fr 2fr;
+  }
+}
