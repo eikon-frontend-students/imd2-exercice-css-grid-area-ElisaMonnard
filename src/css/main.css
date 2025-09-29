@@ -196,3 +196,19 @@ video {
   font-weight: 300;
   letter-spacing: 0.5px;
 }
+
+@media (min-width: 768px) {
+  .header {
+    background-color: red;
+  }
+
+  .container {
+    display: grid;
+    grid-template-areas:
+      ".      header  header"
+      "nav    main    main"
+      "nav    main    main"
+      "footer footer  footer";
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
