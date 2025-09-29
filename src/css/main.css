@@ -227,9 +227,9 @@ video {
       ".      nav    main    main"
       "footer footer footer  footer";
     grid-template-columns: 0.5fr 1fr 2fr 2fr;
-     /* on peut aussi le faire avec 3 colonnes seulement  */
+    /* on peut aussi le faire avec 3 colonnes seulement  */
   }
-  }
+
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
